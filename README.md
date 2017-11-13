@@ -1,4 +1,4 @@
-# Todo list web app with react and redux (using create-react-app)
+# Todo list web app with react and redux
 
 ## Features
 
@@ -9,4 +9,4 @@
 ## Installation
 
 - Install node.js
-- Run todo-list-api and set the env `TODO_LIST_API` to point to it
+- Run the app todo-list-api and set the env `REACT_APP_TODO_LIST_API` to point to it

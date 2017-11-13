@@ -9,7 +9,7 @@ const getEnv = (name) => {
 };
 
 const env = [
-  'TODO_LIST_API'
+  'TODO_LIST_API',
 ];
 
 export default env.reduce((envs, envVar) => ({ ...envs, [envVar]: getEnv(envVar) }), {});
